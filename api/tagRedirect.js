@@ -3,7 +3,7 @@ export default async function handler(req, res) {
 
   // ========== 改成你的真实地址 ==========
   const ZAPIER_HOOK = "https://hooks.zapier.com/hooks/catch/21644115/4tmbq9n/";
-  const TARGET_REDIRECT_URL = "https://www.google.com";
+  const TARGET_REDIRECT_URL = "https://www.kickstarter.com/projects/lemmothree/300815528/edit/preview";
   // =====================================
 
   if (!customer_id) {
