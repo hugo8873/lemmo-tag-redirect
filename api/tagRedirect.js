@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const { customer_id, customer_email, tag } = req.query;
+  const { customer_id, tag } = req.query;
 
   // ========== 改成你的真实地址 ==========
   const ZAPIER_HOOK = "https://hooks.zapier.com/hooks/catch/21644115/4tmbq9n/";
