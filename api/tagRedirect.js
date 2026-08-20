@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   }
 
   fetch(
-    `${ZAPIER_HOOK}?customer_id=${encodeURIComponent(customer_id)}&customer_email=${encodeURIComponent(customer_email)}&tag=${encodeURIComponent(tag)}`
+    `${ZAPIER_HOOK}?customer_id=${encodeURIComponent(customer_id)}&tag=${encodeURIComponent(tag)}`
   ).catch(() => {});
 
   res.writeHead(302, {
